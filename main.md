@@ -1,4 +1,4 @@
-## Dolphin
+## Dolphin cannot use default applications
 
 <https://github.com/prasanthrangan/hyprdots/issues/1406#issuecomment-2089416472>
 
