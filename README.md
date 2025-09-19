@@ -20,3 +20,7 @@ Then run `sudo mkinitcpio -P`
 - curl -L https://raw.githubusercontent.com/KDE/plasma-workspace/master/menu/desktop/plasma-applications.menu -o $HOME/.config/menus/applications.menu
 
 - kbuildsycoca6
+
+## Sudo with no timeout
+
+Add `Defaults timestamp_timeout=0` to `/etc/sudoers`
