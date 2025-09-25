@@ -10,6 +10,13 @@ HOOKS=(base udev autodetect microcode modconf kms keyboard keymap consolefont bl
 
 Then run `sudo mkinitcpio -P`
 
+### Hibernate without compression
+
+With swap partition as large as RAM, hibernation can be done without compression.
+
+Add `hibernate=nocompress` to the kernel parameters in /etc/default/grub.
+
+Then run `sudo grub-mkconfig -o /boot/grub/grub.cfg`.
 
 ## Dolphin cannot use default applications
 
